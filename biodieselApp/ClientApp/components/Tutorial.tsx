@@ -7,7 +7,7 @@ interface FetchDataExampleState {
     loading: boolean;
 }
 
-export class FetchData extends React.Component<RouteComponentProps<{}>, FetchDataExampleState> {
+export class Tutorial extends React.Component<RouteComponentProps<{}>, FetchDataExampleState> {
     constructor() {
         super();
         this.state = { forecasts: [], loading: true };
