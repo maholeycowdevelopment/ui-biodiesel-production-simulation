@@ -1,0 +1,21 @@
+﻿/*Text styling for home page */
+.page-header {
+    margin: 10px 10px;
+}
+.paragraph {
+  font-size: 22px;
+  margin: 10px 10px;  
+}
+
+.bullet-point {
+    font-size: 20px;
+    color: gold;
+}
+
+.navigation-item {
+    font-size: 20px;
+}
+
+.site-title {
+    font-size: 24px;
+}
