@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="react-bootstrap.TypeScript.DefinitelyTyped" Version="0.2.6" />
   </ItemGroup>
 
   <ItemGroup>
