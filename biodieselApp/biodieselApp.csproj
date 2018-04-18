@@ -21,6 +21,12 @@
     <Content Remove="ClientApp\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ClientApp\components\img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="ClientApp\components\img\light-ui-logo.png" />
+  </ItemGroup>
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
     <!-- Ensure Node.js is installed -->
     <Exec Command="node --version" ContinueOnError="true">
