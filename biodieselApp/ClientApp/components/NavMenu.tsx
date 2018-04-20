@@ -21,7 +21,6 @@ export class NavMenu extends React.Component<{}, {}> {
                 </li>
                 <li>
                     <NavLink to={ '/tutorial' } activeClassName='active'>
-                        
                         Tutorial
                     </NavLink>
                 </li>

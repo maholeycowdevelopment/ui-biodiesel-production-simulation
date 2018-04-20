@@ -10,6 +10,12 @@
     color: white;
 }
 
+.nav-option:active,
+.nav-option:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
 /* Keep the nav menu independent of scrolling and on top of other items */
 .main-nav {
     position: fixed;
