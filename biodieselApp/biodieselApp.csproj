@@ -23,6 +23,8 @@
 
   <ItemGroup>
     <Folder Include="ClientApp\components\img\" />
+    <Folder Include="ClientApp\components\shared\" />
+    <Folder Include="ClientApp\components\stations\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="ClientApp\components\img\light-ui-logo.png" />
