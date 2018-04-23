@@ -1,6 +1,6 @@
 ﻿/*Text styling for home page */
 * {
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .page-header {
@@ -12,11 +12,14 @@
   margin: 10px 10px;  
 }
 
-.bullet-point {
-    font-size: 22px;
-    color: gold;
+.center-text {
+    text-align: center;
 }
 
+.bullet-point {
+    font-size: 26px;
+    color: gold;
+}
 
 .site-title {
     font-size: 24px;
