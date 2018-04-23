@@ -7,7 +7,7 @@ export class Home extends React.Component<RouteComponentProps<{}>, {}> {
             <div className="row">
                 <h1 className="page-header">University of Idaho Biodiesel Education Program</h1>
             </div>
-            <div className="row">
+            <div className="row home-info-section">
                 <div className="col-sm-6">
                     <p className="paragraph">Welcome to the online biodiesel studio presented by the University
                     of Idaho! If you haven't been here before, you might want to check out
@@ -18,7 +18,7 @@ export class Home extends React.Component<RouteComponentProps<{}>, {}> {
                     <img className="home-image" src={require('./img/Administration_Building.jpg')} alt="Admin Building Picture" />
                 </div>
             </div>
-            <div className="row">
+            <div className="row home-info-section">
                 <div className="col-sm-6">
                     <img className="home-image" src={require('./img/biodiesel_lab.jpg')} alt="Biodiesel Lab Pic" />
                 </div>
