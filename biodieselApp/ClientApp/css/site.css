@@ -70,3 +70,16 @@
         text-overflow: ellipsis;
     }
 }
+
+.home-info-section {
+    margin-top: 20px;
+}
+
+.navbar-header {
+    font-size: 28px;
+}
+
+.center-content {
+    text-align: center;
+    margin-top: 25px;
+}

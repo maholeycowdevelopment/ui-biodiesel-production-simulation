@@ -1,23 +1,24 @@
 ﻿/*Text styling for home page */
 * {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .page-header {
     margin: 10px 10px;
+    text-align: center;
 }
 .paragraph {
-  font-size: 22px;
+  font-size: 26px;
   margin: 10px 10px;  
 }
 
-.bullet-point {
-    font-size: 20px;
-    color: gold;
+.center-text {
+    text-align: center;
 }
 
-.navigation-item {
-    font-size: 20px;
+.bullet-point {
+    font-size: 26px;
+    color: gold;
 }
 
 .site-title {
